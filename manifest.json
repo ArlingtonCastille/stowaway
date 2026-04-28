@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Stowaway",
+  "version": "1.0.0",
+  "description": "Save and restore your Chrome tab groups. Snapshot, organize, and bring them back with one click.",
+  "permissions": ["tabs", "tabGroups", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Stowaway"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

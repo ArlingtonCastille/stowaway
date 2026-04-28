@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Stowaway</h1>
+    <button id="save-btn" type="button">Save current tab groups</button>
+  </header>
+  <main>
+    <div id="status" class="status" hidden></div>
+    <ul id="snapshot-list"></ul>
+    <p id="empty-state" class="empty" hidden>No snapshots yet. Open some tab groups, then save them.</p>
+  </main>
+  <footer id="action-bar">
+    <button id="restore-btn" class="primary" type="button" disabled>Restore</button>
+    <button id="rename-btn" type="button" disabled>Rename</button>
+    <button id="delete-btn" type="button" disabled>Delete</button>
+    <button id="settings-btn" class="icon-btn" type="button" title="Settings" aria-label="Settings">⚙</button>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

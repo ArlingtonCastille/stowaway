@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stowaway Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1>Stowaway Settings</h1>
+
+    <section>
+      <h2>Restore behavior</h2>
+      <p class="hint">When you restore a snapshot, where should the tab groups open?</p>
+
+      <label class="radio-row">
+        <input type="radio" name="restoreTarget" value="newWindow">
+        <span>
+          <strong>Open in a new window</strong>
+          <span class="sub">Each restore creates a fresh window. Safe default — won't affect your current tabs.</span>
+        </span>
+      </label>
+
+      <label class="radio-row">
+        <input type="radio" name="restoreTarget" value="currentWindow">
+        <span>
+          <strong>Open in the current window</strong>
+          <span class="sub">Tab groups are added to your last-focused browser window.</span>
+        </span>
+      </label>
+    </section>
+
+    <div id="status" class="status" hidden></div>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>
