@@ -1,16 +1,28 @@
 # Stowaway
 
-Save and restore your Chrome tab groups. Snapshot, organize, and bring them back with one click.
+**Don't lose your tabs again.**
 
-Stowaway captures the names, colors, and URLs of every tab group in your current window, stores them locally on your machine, and restores them later with everything where you left it.
+Snapshot every tab group in your current window — names, colors, and all URLs. Restore them later, exactly the way you left them. Local-first, no accounts, nothing sent anywhere.
+
+For anyone who works in tab groups: researchers juggling multiple projects, developers with a workspace per repo, anyone who needs to suspend a session and pick it up later.
+
+## What a saved snapshot looks like
+
+```
+Apr 28, 09:26 AM                      2 groups, 7 tabs
+🟢 Linux  🔵 Work
+[Restore] [Rename] [Delete]
+```
+
+Each snapshot shows the name and color dot of every group it contains, so you can see at a glance what you're about to bring back.
 
 ## Features
 
-- One-click snapshot of all tab groups in the current window
-- Each saved snapshot displays the name and color dot of every group it contains
-- Single-click selection with one shared action bar (Restore, Rename, Delete)
-- Choose whether restored groups open in a new window or in your current window
-- All data lives in `chrome.storage.local` on your device. Nothing is sent anywhere.
+- **Snapshot a workspace** — capture every tab group in your current window in one click
+- **Restore exactly as you left it** — group names, colors, and tab order all preserved
+- **Visual snapshot list** — see the name and color dot of every group inside each saved snapshot
+- **Choose where to restore** — into a new window or merged into your current one
+- **Local-first** — all data lives in `chrome.storage.local` on your device. Nothing is sent anywhere.
 
 ## Install
 
@@ -37,11 +49,11 @@ Stowaway runs entirely on your machine. No accounts, no analytics, no servers. Y
 
 ## Roadmap
 
-- Snapshot search
+- Firefox build
 - Export and import snapshots as JSON
+- Snapshot search
 - Keyboard shortcut to trigger save
 - Optional auto-snapshot on schedule
-- Firefox build
 
 ## License
 
@@ -49,7 +61,7 @@ MIT. See [LICENSE](LICENSE).
 
 ## Support
 
-Stowaway is free and donationware. If it saves you time, you can support development:
+If Stowaway earns its keep, here's how to keep it going:
 
 - [Buy Me a Coffee](https://buymeacoffee.com/arlingtoncastille)
 - [Patreon](https://patreon.com/arlingtoncastille)
