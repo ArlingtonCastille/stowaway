@@ -8,11 +8,8 @@ For anyone who works in tab groups: researchers juggling multiple projects, deve
 
 ## What a saved snapshot looks like
 
-```
-Apr 28, 09:26 AM                      2 groups, 7 tabs
-🟢 Linux  🔵 Work
-[Restore] [Rename] [Delete]
-```
+<img width="418" height="379" alt="image" src="https://github.com/user-attachments/assets/1a5cae77-2dfa-423a-8453-ef76cc8bdfb6" />
+
 
 Each snapshot shows the name and color dot of every group it contains, so you can see at a glance what you're about to bring back.
 
